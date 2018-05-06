@@ -1,0 +1,26 @@
+body{
+	font-family: Arial;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	border: solid 2px black;
+	font-size: 15px;
+	min-width: 10vw;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+	border: solid 2px white;
+	font-size: 15px;
+	min-width: 10vw;
+	border-radius: 10px;
+}
