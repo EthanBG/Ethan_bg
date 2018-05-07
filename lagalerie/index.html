@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8"><link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="shortcut icon" href="http://bd-fournisseurs.com/Public/Fichiers/Ressources/2563/logo-appareil-photo.png">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/camera.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.1.1.js"></script>
+<script type="text/javascript" src="js/camera.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script>
+    jQuery(function(){
+      jQuery('#camera_wrap_1').camera({
+        height: '317px',
+        loader: false,
+        pagination: false,
+        thumbnails: false
+      });
+    });
+  </script>
+  <!--[if lt IE 8]><div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div><![endif]-->
+  	<!--[if lt IE 9]>
+	   	<script src="js/html5shiv.js"></script>
+	   	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+	   	<link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+    <![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="wrapper">
+					<h1 class="couleur">La Galerie des Arts</h1>
+					<nav>
+						<ul class="menu">
+							<li class="active"><a href="index.html">Accueil</a></li>
+							<li><a href="photos.html">Photos</a></li>
+							<li><a href="dessins.html">Dessins</a></li>
+							<li><a href="video.html">Vidéos</a></li>
+							<li><a href="idee.html">Des Idées?</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content">
+		<div class="ic">More Website Templates @ TemplateMonster.com - April 15, 2013!</div>
+		<div id="slider">
+			<div class="container_12">
+				<div class="grid_12">
+				<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+		      <div data-src="images/paysage.jpg">
+		          <div class="camera_caption fadeIn">
+		              <h2>Mes Photos</h2>
+		              	Toutes mes plus belles photos... J'aime la photos...
+		              	<p><a href="photos.html" class="button">Plus d'infos</a></p>
+		          </div>
+		      </div>
+		      <div data-src="images/dessinloup.jpg">
+		          <div class="camera_caption fadeIn">
+		              <h2>Mes dessins</h2>
+		              	Depuis quelques temps, je dessine sur tablette graphique, cette page regroupe des photos et des vidéos de mes dessins...
+		              	<p><a href="#" class="button">Plus d'infos</a></p>
+		          </div>
+		      </div>
+		      <div data-src="images/video.png">
+		          <div class="camera_caption fadeIn">
+		              <h2>Quelques vidéos</h2>
+		              	Je fait pas mal de montage vidéos et je cherchais un endroit (autre que YouTube) ou je pourrais tous les mettre... et bien voilà...
+		              	<p><a href="#" class="button">Plus d'infos</a></p>
+		          </div>
+		      </div>
+		     </div>
+		    </div>
+	  	</div>
+		</div>
+</body>
+</html>

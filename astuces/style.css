@@ -1,0 +1,90 @@
+body{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.cover, .preview{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.cover{
+	height: 90vh;
+	border-bottom: solid 10px #FF6B6B;
+}
+
+
+
+.titre{
+	color: #4ECDC4
+}
+
+.cover h1{
+	color: #FFFFFF;
+	font-size: 3em;
+}
+
+img{
+	max-width: 100%;
+}
+
+.image{
+	border: solid 10px #FF6B6B;
+}
+
+.big-image{
+	min-width: 70%;
+	max-width: 100%;
+}
+
+
+#content{
+	padding: 20px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+
+
+#games-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* taille mobile */
+.preview{
+	width: 100vw;
+	height: 80vw;
+}
+
+/* taille tablette */
+@media only screen and (min-width: 600px) {
+	.preview {
+		width: 50vw;
+		height: 40.1vw;
+	}
+}
+
+/* taille tablette paysage */
+@media only screen and (min-width: 768px) {
+	.preview {
+		width: 33.3333vw;
+		height: 27vw;
+	}
+}
+
+/* taille ordinateur */
+@media only screen and (min-width: 1024px) {
+	.preview {
+		width: 25vw;
+		height: 20vw;
+	}
+}

@@ -1,0 +1,137 @@
+body{
+	font-family: helvetica,sans-serif;
+	background-color: #FFFFFF;
+	color: #1A535C;
+	width: 100vw;
+	margin: 0;
+	font-size: 16px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	line-height: 1.4em;
+}
+
+header {
+	padding: 20px 50px;
+	margin: 0px;
+}
+
+header ol li{
+	display: inline-block;
+}
+
+h1 {
+	color: #4ECDC4;
+}
+
+.container, .game {
+	padding: 50px;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.game {
+	border-bottom: solid 5px #FF6B6B;
+	margin: 0 50px;
+	display: block;
+	position: relative;
+}
+
+.game:hover {
+	background-color: #F7FFF7;
+}
+
+.game:last-child {
+	border-bottom: 0px;
+}
+
+.game img {
+	max-width: 700px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+}
+
+.note {
+	display: block;
+	font-weight: bold;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	background-color: #4ECDC4;
+	color: #F7FFF7;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.download {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+a.button{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #FFE66D;
+	color: #1A535C;
+	border-radius: 10px;
+}
+
+a.button:hover {
+	background-color: #FF6B6B;
+}
+
+img.icon{
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+	border-radius: 10px;
+}
+
+
+nav{
+	background-color: #FFE66D;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 20px;
+	position: relative;
+}
+
+nav.straight{
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom: solid 5px #FF6B6B;
+}
+
+nav .logo{
+	position: absolute;
+	top: 0px;
+	left:10px;
+}
+
+
+nav a{
+	margin: 5px;
+	text-decoration: none;
+	color: #1A535C;
+}
+
+nav a:hover{
+	color:#FF6B6B;
+}
+
+nav a.active{
+	color:#FF6B6B;
+	pointer-events: none;
+}
