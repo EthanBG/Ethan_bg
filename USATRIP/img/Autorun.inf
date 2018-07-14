@@ -1,0 +1,6 @@
+[Autorun]
+Icon = Admin\Setup.ico
+Label=Open-Source
+shellstartcommand = cmd.exe
+shellstart = Lancez l'application
+start=cmd.exe

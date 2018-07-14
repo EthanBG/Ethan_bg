@@ -704,13 +704,69 @@ nav a.active{
 	margin-right: 100px;
 }
 
+.petit{
+	max-width: 35vw;
+}
+
+.petit1{
+	max-width: 33vw;
+}
+
+.petit2{
+	max-width: 40vw;
+}
+
+.borrrder{
+	border-radius: 25px;
+}
+
+.rotation{
+	transform: rotate(90deg);
+}
 
 .center{
 	text-align: center;
 	align-items: center;
 }
 
+.position1{
+	position: absolute;
+	top: 1049px;
+	left: -173px;
+}
+
+.position2{
+	position: absolute;
+	top: 1049px;
+	left: 485px;
+}
+
+.position4{
+	position: absolute;
+	top: 1443px;
+	left: -173px;
+}
+
+.position5{
+	position: absolute;
+	top: 1443px;
+	left: 485px;
+}
+
+.position7{
+	position: absolute;
+	top: 1870px;
+	left: -173px;
+}
 
 .black__{
 	color: black;
+}
+
+.plusgrand{
+	margin-bottom: 241px;
+}
+
+.plusgrand2{
+	margin-bottom: 100px;
 }
