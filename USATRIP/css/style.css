@@ -755,12 +755,34 @@ nav a.active{
 
 .position7{
 	position: absolute;
-	top: 1870px;
+	top: 1929px;
 	left: -173px;
+}
+
+.position8{
+	position: absolute;
+	top: 1970px;
+	left: 485px;
+}
+
+.position9{
+	position: absolute;
+	top: 2270px;
+	left: -173px;
+}
+
+.position10{
+	position: absolute;
+	top: 2300px;
+	left: 485px;
 }
 
 .black__{
 	color: black;
+}
+
+.petit3{
+	max-width: 26vw;
 }
 
 .plusgrand{
