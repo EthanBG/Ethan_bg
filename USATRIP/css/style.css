@@ -704,18 +704,6 @@ nav a.active{
 	margin-right: 100px;
 }
 
-.petit{
-	max-width: 35vw;
-}
-
-.petit1{
-	max-width: 33vw;
-}
-
-.petit2{
-	max-width: 40vw;
-}
-
 .borrrder{
 	border-radius: 25px;
 }
@@ -781,9 +769,38 @@ nav a.active{
 	color: black;
 }
 
-.petit3{
-	max-width: 26vw;
+.petit{
+	max-width: 87vh;
 }
+
+.petit1{
+	max-width: 109vh;
+}
+
+.petit2{
+	max-width: 131vh;
+}
+
+.petit3{
+	max-width: 86vh;
+}
+
+.petit4{
+	max-width: 93vh;
+}
+
+.petit5{
+	max-width: 101vh;
+}
+
+.petit6{
+	max-width: 94vh;
+}
+
+.petit7{
+	max-width: 109vh;
+}
+
 
 .plusgrand{
 	margin-bottom: 241px;
