@@ -36,7 +36,11 @@ a{
 }
 
 .HOME{
-  margin-top: 30px;
+  margin-top: 60vw;
+}
+
+.home{
+  margin-top: 10vw;
 }
 
 .center{
@@ -66,22 +70,22 @@ a{
 
 .imgA{
   border-radius: 25px;
-  min-width: 65vh;
-  max-width: 65vh;
+  min-width: 90vh;
+  max-width: 90vh;
   border: solid 10px #011638;
   float: left;
   margin-bottom: 20px;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 
 .imgB{
   border-radius: 25px;
-  min-width: 65vh;
-  max-width: 65vh;
+  min-width: 90vh;
+  max-width: 90vh;
   border: solid 10px #011638;
   float: right;
   margin-bottom: 20px;
-  margin-right: 60px;
+  margin-right: 40px;
 }
 
 .inter1{
@@ -126,7 +130,8 @@ nav .logo{
 	position: absolute;
 	top: 0px;
 	left:10px;
-  max-width: 11vw;
+  max-width: 14vw;
+  min-width: 14vw;
 	border-radius: 360px;
   margin-top: 5px;
 }
