@@ -2,7 +2,7 @@ body{
   background-color: #f2f5ea;
   font-family: 'Abel', sans-serif;
   color: #141414;
-  
+
 }
 
 
@@ -37,6 +37,10 @@ a{
   font-family: 'Major Mono Display', monospace;
 }
 
+.margin4{
+  margin-left: 10px;
+}
+
 .HOME{
   margin-top: 60vw;
 }
@@ -52,6 +56,7 @@ a{
 .title{
   text-decoration: underline;
   color: #011638;
+  font-family: 'Major Mono Display', monospace;
 }
 
 .para{
@@ -78,6 +83,8 @@ a{
   float: left;
   margin-bottom: 20px;
   margin-left: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .imgB{
@@ -88,6 +95,8 @@ a{
   float: right;
   margin-bottom: 20px;
   margin-right: 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .inter1{
@@ -104,15 +113,16 @@ header/*bandeau haut*/
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 111px;
+    height: 5vw;
     background-color: rgb(236,138,1);
+    z-index: 10;
     /* line-height:111px; */
 }
 
 nav{
 	background-color: #141414;
 	text-align: center;
-	padding: 55px;
+	padding: 4vw;
 	position: relative;
   padding-left: 20px;
 
