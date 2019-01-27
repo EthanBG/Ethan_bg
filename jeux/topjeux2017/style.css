@@ -6,7 +6,7 @@ body{
 }
 
 .top{
-  background-image: url(images/banniere.jpg);
+  background-image: url(../../images/banniere.jpg);
   background-attachment: fixed;
   padding: 300px;
   left: 0px;
@@ -18,12 +18,32 @@ body{
   width:100vw;
 }
 
-.button{
-  color: #141414;
+.button1{
+  color: #f2f5ea;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #141414;
 }
 
 .button:hover{
   color: #FF6B6B;
+}
+
+.video{
+  width: 40vw;
+  height: 22vw;
+  border: solid 10px #141414;
+}
+
+.imgillu{
+  width: 40vw;
+  text-align: center;
+  border: solid 10px #141414;
+}
+
+.imgillu1{
+  text-align: center;
+  border: solid 10px #141414;
 }
 
 .toptitle{

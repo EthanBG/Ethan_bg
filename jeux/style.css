@@ -6,7 +6,7 @@ body{
 }
 
 .top{
-  background-image: url(images/banniere.jpg);
+  background-image: url(../images/banniere.jpg);
   background-attachment: fixed;
   padding: 300px;
   left: 0px;
@@ -16,14 +16,6 @@ body{
   margin-left:-9px;
   margin-right:-9px;
   width:100vw;
-}
-
-.button{
-  color: #141414;
-}
-
-.button:hover{
-  color: #FF6B6B;
 }
 
 .toptitle{
@@ -37,6 +29,63 @@ body{
   color: #f2f5ea;
   position: absolute;
   left: 20px;
+}
+
+.button{
+  position: absolute;
+  top: 700px;
+  left: 50px;
+  padding: 30px;
+  width: 282px;
+  border: solid 10px #141414;
+  color: #f2f5ea;
+  background-color: #141414;
+  margin-bottom: 20px;
+}
+
+.imgbutton{
+  left: 50px;
+  top: 730px;
+}
+
+.button1{
+  position: absolute;
+  top: 700px;
+  left: 40vw;
+  padding: 30px;
+  width: 282px;
+  border: solid 10px #141414;
+  color: #f2f5ea;
+  background-color: #141414;
+  margin-bottom: 20px;
+}
+
+.imgbutton1{
+  left: 150px;
+  top: 730px;
+  max-width: 282px;
+}
+
+a:hover{
+  color: #FF6B6B;
+}
+
+.button2{
+  position: absolute;
+  top: 700px;
+  right: 66px;
+  padding: 30px;
+  width: 282px;
+  border: solid 10px #141414;
+  color: #f2f5ea;
+  background-color: #141414;
+  margin-bottom: 20px;
+}
+
+.imgbutton2{
+  right: 88px;
+  top: 730px;
+  max-width: 282px;
 }
 
 .para{
