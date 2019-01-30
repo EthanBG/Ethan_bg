@@ -1,26 +1,26 @@
 @font-face {
 font-family: 'Kiona-Regular';
-src: url('font/Kiona-Regular.ttf') format('truetype');
+src: url('../../font/Kiona-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
 font-family: 'Berserker-Regular';
-src: url('font/Berserker-Regular.ttf') format('truetype');
+src: url('../../font/Berserker-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 body{
   background-color: #f2f5ea;
-  font-family: "Kiona-Regular";
+  font-family: 'Kiona-Regular';
   color: #141414;
   z-index: 1;
 }
 
 .top{
-  background-image: url(images/banniere.jpg);
+  background-image: url(../../images/banniere.jpg);
   background-attachment: fixed;
   padding: 300px;
   left: 0px;
@@ -32,12 +32,32 @@ body{
   width:100vw;
 }
 
-.button{
-  color: #141414;
+.button1{
+  color: #f2f5ea;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #141414;
 }
 
 .button:hover{
   color: #FF6B6B;
+}
+
+.video{
+  width: 40vw;
+  height: 22vw;
+  border: solid 10px #141414;
+}
+
+.imgillu{
+  width: 40vw;
+  text-align: center;
+  border: solid 10px #141414;
+}
+
+.imgillu1{
+  text-align: center;
+  border: solid 10px #141414;
 }
 
 .toptitle{
@@ -60,6 +80,10 @@ body{
 
 *{
 	box-sizing: border-box;
+}
+
+h1{
+  font-size: 43px;
 }
 
 h2{
@@ -151,7 +175,6 @@ nav a.active{
 	pointer-events: none;
 }
 
-h1{
-  font-size: 43px;
-  
+.colorcorrect{
+  color: #141414;
 }
