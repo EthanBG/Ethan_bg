@@ -1,20 +1,20 @@
 @font-face {
 font-family: 'Kiona-Regular';
-src: url('/font/Kiona-Regular.ttf') format('truetype');
+src: url('font/Kiona-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
 font-family: 'Berserker-Regular';
-src: url('/font/Berserker-Regular.ttf') format('truetype');
+src: url('font/Berserker-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 body{
   background-color: #f2f5ea;
-  font-family: 'Kiona-Regular';
+  font-family: "Kiona-Regular";
   color: #141414;
   z-index: 1;
 }
@@ -31,6 +31,8 @@ body{
   margin-right:-9px;
   width:100vw;
 }
+
+
 
 .toptitle{
   color: #f2f5ea;
@@ -97,7 +99,49 @@ a:hover{
   margin-bottom: 20px;
 }
 
+.button3{
+  position: absolute;
+  top: 1350px;
+  left: 50px;
+  padding: 30px;
+  width: 282px;
+  border: solid 10px #141414;
+  color: #f2f5ea;
+  background-color: #141414;
+  margin-bottom: 20px;
+}
+
+.button5{
+  position: absolute;
+  top: 1350px;
+  right: 66px;
+  padding: 30px;
+  width: 282px;
+  border: solid 10px #141414;
+  color: #f2f5ea;
+  background-color: #141414;
+  margin-bottom: 20px;
+}
+
+.button4{
+  position: absolute;
+  top: 1350px;
+  left: 40vw;
+  padding: 30px;
+  width: 282px;
+  border: solid 10px #141414;
+  color: #f2f5ea;
+  background-color: #141414;
+  margin-bottom: 20px;
+}
+
 .imgbutton2{
+  right: 88px;
+  top: 730px;
+  max-width: 282px;
+}
+
+.imgbutton3{
   right: 88px;
   top: 730px;
   max-width: 282px;
@@ -203,4 +247,11 @@ nav a:hover{
 nav a.active{
 	color:#FF6B6B;
 	pointer-events: none;
+}
+
+.miniban{
+  width: 321px;
+  height: 271px;
+  border: solid 10px #141414;
+  text-align: center;
 }

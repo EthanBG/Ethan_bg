@@ -125,28 +125,31 @@
 
 		.to([minibw, miniblue], 0.4, {opacity: 1, x: -30}, "+=0.7")
 		.to(cta_frame, 0.01,{ opacity: 1, scale: 1})
+		.call(interaction_end)
 
 
 	//timeline.seek("frame4")
-	bannerboy.scrubberController.create({"main timeline": timeline})
+	// bannerboy.scrubberController.create({"main timeline": timeline})
 	interaction()
 
 	// Custom Functions
     var currentcolor = "blue"
 
 	function interaction(){
-		btnyellow.addEventListener("mouseenter", function(){
-			changeColor("yellow")
-		})
-		btnred.addEventListener("mouseenter", function(){
-			changeColor("red")
-		})
-		btnblue.addEventListener("mouseenter", function(){
-			changeColor("blue")
-		})
+		console.log('interaction')
 		cta_frame.addEventListener("mouseenter", function(){
 			changebtnColor(currentcolor)
 		})
+		cta_frame.addEventListener("mouseleave", function(){
+			changebtnColor("black")
+		})
+		cta_frame.addEventListener("click", function(){
+			window.open("https://www.mini.fr/fr_FR/home.html")
+		})
+	}
+
+	function interaction_end() {
+
 		btnyellow.addEventListener("mouseleave", function(){
 			changeColor(currentcolor)
 		})
@@ -156,9 +159,15 @@
 		btnblue.addEventListener("mouseleave", function(){
 			changeColor(currentcolor)
 		})
-		cta_frame.addEventListener("mouseleave", function(){
-			changebtnColor("black")})
-
+		btnyellow.addEventListener("mouseenter", function(){
+			changeColor("yellow")
+		})
+		btnred.addEventListener("mouseenter", function(){
+			changeColor("red")
+		})
+		btnblue.addEventListener("mouseenter", function(){
+			changeColor("blue")
+		})
 		btnyellow.addEventListener("click", function(){
 			clickColor("yellow")
 		})
@@ -168,12 +177,10 @@
 		btnblue.addEventListener("click", function(){
 			clickColor("blue")
 		})
-		cta_frame.addEventListener("click", function(){
-			window.open("https://www.mini.fr/fr_FR/home.html")
-		})
 	}
 
 	function changebtnColor(color){
+		console.log('change button color')
 		TweenMax.to(cta_frame, 0.01, {backgroundColor: colors[color]})
 	}
 
@@ -194,6 +201,7 @@
 	}
 
 	function changeColor(color){
+		console.log('change color')
 		var colorsmini = [minired, miniblue, miniyellow]
 		TweenMax.set(colorsmini, {opacity: 0})
 		if (color == "yellow") {
@@ -216,7 +224,6 @@
 		delete options.parent;
 
 		options.position = "absolute";
-
 
 		TweenMax.set(element, options);
 
@@ -246,7 +253,6 @@
 		options.color = "white";
 		options.fontFamily= 'minitype_v2_regularbold';;
 		options.fontSize = options.fontSize || 30;
-
 
 		TweenMax.set(element, options);
 		parent.appendChild(element);

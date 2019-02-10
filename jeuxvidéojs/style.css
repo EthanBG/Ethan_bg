@@ -1,0 +1,23 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	font-family: Arial;
+	background-color: black;
+}
+
+.center{
+	text-align: center;
+}
+
+#gamecontainer{
+	height: 500px;
+	width: 500px;
+	border: solid 2px black;
+	position: relative;
+	
+	background-color: white;
+}
