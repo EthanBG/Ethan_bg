@@ -18,10 +18,10 @@ var tableau
 var result
 var inputstring
 var presets = {
-	"Dé": "1, 2, 3, 4, 5, 6",
-	"Pile OU Face": "Pile, Face",
-	"Les AS": "As de Pic, As de Coeur, As de Carreau, As de Trèfle",
-	"Restos": "Kebab, Boulangerie, MacDo, Burger King, Brasserie, Buffalo",
+	"DÉ": "1, 2, 3, 4, 5, 6",
+	"PILE OU FACE": "PILE, FACE",
+	"LES AS": "AS DE PIC, AS DE TRÈFLE, AS DE COEUR, AS DE PIC",
+	"RESTOS": "KEBAB, BOULANGERIE, MACDO, BURGER KING, BRASSERIE, BUFFALO",
 }
 
 //console.log (textinput, button, result)
@@ -48,7 +48,7 @@ function randompick(){
 
 
 	if (inputstring == "") {
-		resultcontainer.innerHTML = "Mettre des données avant de tirer au sort!"
+		resultcontainer.innerHTML = "METTRE DES DONNÉES AVANT DE TIRER AU SORT!"
 		return
 	}
 
