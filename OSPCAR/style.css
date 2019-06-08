@@ -14,6 +14,11 @@ a{
   text-align: center;
 }
 
+.lien{
+  text-decoration: underline;
+  color: #F7EBE8;
+}
+
 .maintitle{
   font-size: 50px;
 }
@@ -98,6 +103,8 @@ header > nav > ul > li > a:hover{
   width: 100%;
 }
 
+
+
 .codeheader > nav > ul{
   margin: 0px;
   padding: 0px;
@@ -132,3 +139,60 @@ header > nav > ul > li > a:hover{
 .taille1{
   font-size: 40px;
 	}
+
+  .markedlinkcode{
+    color: #F7EBE8;
+  }
+
+  footer{
+    background-color: #292F36;
+    color: #F7EBE8;
+    position: fixed;
+    left: 0;
+    font-size: 10px;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+
+  footer > nav > ul > li{
+    list-style-type: none;
+    float: left;
+    position: relative;
+  }
+
+  footer > p{
+    margin-bottom: 30px;
+  }
+
+  footer > nav > ul > li > a{
+    color: #F7EBE8;
+    border-top: 5px solid #4ECDC4;
+    border-bottom: 5px solid #FFFFFF;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  footer > nav > ul > li > a:hover{
+    border-top: 5px solid #4ECDC4;
+    border-radius: 25px;
+    background-color: RGBa(78, 205, 196, 0.15);
+  }
+
+  .footercode > nav > ul > li > a{
+    color: #F7EBE8;
+    border-top: 5px solid #E44D26;
+    border-bottom: 5px solid #FFFFFF;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+.footercode > nav > ul > li > a:hover{
+  border-top: 5px solid #E44D26;
+  border-radius: 25px;
+  background-color: RGBa(228, 77, 38, 0.15);
+}
