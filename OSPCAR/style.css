@@ -14,6 +14,7 @@ a{
 
 .center{
   text-align: center;
+  align-items: center;
 }
 
 .lien{
@@ -187,6 +188,20 @@ header > nav > ul > li > a:hover{
   border-top: 5px solid #F4D35E;
   padding-top: 15px;
   background-color: RGBa(244, 211, 94, 0.15);
+}
+
+img{
+  border-top: 5px solid #0FA3B1;
+  border-bottom: 5px solid #FFFFFF;
+  max-width: 50vw;
+}
+
+.icone{
+  max-width: 3vw;
+}
+
+.icone2{
+  max-width: 1vw;
 }
 
 .maintitlecont{
