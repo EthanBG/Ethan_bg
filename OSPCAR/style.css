@@ -5,6 +5,8 @@ body{
   background-color: #F7EBE8;
 }
 
+body{width:100%;}
+
 a{
   text-decoration: none;
   color: #000000;
@@ -148,6 +150,36 @@ header > nav > ul > li > a:hover{
     color: #F7EBE8;
   }
 
+
+  @media only screen and (min-device-height:860px) {
+    footer{
+      background-color: #292F36;
+      color: #F7EBE8;
+      position: fixed;
+      left: 0;
+      font-size: 10px;
+      bottom: 0;
+      width: 100%;
+      padding-bottom: 50px;
+      padding-top: 20px;
+    }
+}
+
+@media only screen and (min-height:860px) {
+  footer{
+    background-color: #292F36;
+    color: #F7EBE8;
+    position: fixed;
+    left: 0;
+    font-size: 10px;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width:540px) {
   footer{
     background-color: #292F36;
     color: #F7EBE8;
@@ -159,6 +191,21 @@ header > nav > ul > li > a:hover{
     padding-bottom: 50px;
     padding-top: 20px;
   }
+}
+
+@media only screen and (max-height:860px) and (min-width:540px){
+  footer{
+    background-color: #292F36;
+    color: #F7EBE8;
+    position: relative;
+    left: 0;
+    font-size: 10px;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+}
 
 
   footer > nav > ul > li{
