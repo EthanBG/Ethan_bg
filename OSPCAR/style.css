@@ -201,10 +201,11 @@ header > nav > ul > li > a:hover{
   color: #F7EBE8;
 }
 
-nav > ul > ul > li{
+section > div >  li{
   margin-top: 20px;
+  margin-bottom: 20px;
   list-style-type: none;
-  float: left;
+  display: inline-flex;
 }
 
 .markcont{
@@ -213,8 +214,7 @@ nav > ul > ul > li{
   padding-left: 5px;
   padding-right: 5px;
 }
-
-nav > ul > ul > li > a{
+section > div > li > a{
   color: #000000;
   border-top: 5px solid #F4D35E;
   border-bottom: 5px solid #FFFFFF;
@@ -224,7 +224,7 @@ nav > ul > ul > li > a{
 }
 
 
-nav > ul > ul > li > a:hover{
+section > div > li > a:hover{
   border-top: 5px solid #F4D35E;
   border-radius: 25px;
   background-color: RGBa(244, 211, 94, 0.15);
