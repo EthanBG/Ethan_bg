@@ -19,6 +19,10 @@ a{
   color: #F7EBE8;
 }
 
+.margin1{
+  margin-top: 50px;
+}
+
 .maintitle{
   font-size: 50px;
 }
@@ -147,7 +151,7 @@ header > nav > ul > li > a:hover{
   footer{
     background-color: #292F36;
     color: #F7EBE8;
-    position: fixed;
+    position: relative;
     left: 0;
     font-size: 10px;
     bottom: 0;
@@ -181,6 +185,10 @@ header > nav > ul > li > a:hover{
     border-radius: 25px;
     background-color: RGBa(78, 205, 196, 0.15);
   }
+
+.footercode{
+  position: fixed;
+}
 
   .footercode > nav > ul > li > a{
     color: #F7EBE8;
