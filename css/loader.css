@@ -1,0 +1,35 @@
+.loader{
+  background: url('img/loader/loader.gif') 50% 50% no-repeat #FFFFFF;
+  cursor: wait;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999999;
+}
+.loader h1{
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  height: 700px;
+  line-height: 700px;
+  margin: 0 0 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.loader img{
+  background: none;
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  z-index: 9999;
+  margin: 0 0 10px;
+  padding: 0;
+  top: 50%;
+  align-items: center;
+}
