@@ -12,7 +12,7 @@ Outre la génération de rapports sur les statistiques d'utilisation d'un site W
 
 ## Propriété intellectuelle :
 
-Le site web a été réalisé par Ethan BEAUVAIS--GUIBERT et est concédé sous license Creative Commons CC BY-NC-ND [en savoir plus](https://creativecommons.org/licenses/by-nc-nd/4.0/fr/) .
+Le site web a été réalisé par Ethan BEAUVAIS--GUIBERT et est concédé sous license Creative Commons CC BY-NC-ND [en savoir plus](https://creativecommons.org/licenses/by-nc-nd/4.0) .
 
 ## Photographies et contenu :
 
