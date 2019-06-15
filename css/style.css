@@ -93,21 +93,18 @@ h1{
 #header{
   z-index: 9999999;
   width: 15%;
-  height: 200%;
+  height: 100%;
   color: var(--header-color);
   position: fixed;
   top: 0;
-  background-color: var(--header-background-color)
+  background-color: var(--header-background-color);
+  text-align: center;
+  font-family: 'Megrim', cursive;
 }
 
 #header h1{
   font-size: 2vw;
   margin-bottom: 8vw;
-}
-
-#header{
-  text-align: center;
-  font-family: 'Megrim', cursive;
 }
 
 #header .logo{
@@ -179,7 +176,7 @@ h1{
 
 #footer{
   width: 15%;
-  height: 20%;
+  height: 22%;
   color: var(--header-color);
   position: fixed;
   bottom: 0;
@@ -417,4 +414,8 @@ input{
   z-index: -999999999;
   margin-left: 10vw;
   width: 90vw;
+}
+
+.lastlink{
+  margin-bottom: 1vw;
 }
