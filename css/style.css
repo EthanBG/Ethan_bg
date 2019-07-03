@@ -176,7 +176,7 @@ h1{
 
 #footer{
   width: 15%;
-  height: 22%;
+  height: 24.8%;
   color: var(--header-color);
   position: fixed;
   bottom: 0;
@@ -418,4 +418,9 @@ input{
 
 .lastlink{
   margin-bottom: 1vw;
+}
+
+svg{
+  max-height: 1.7vw;
+  max-width: 1.7vw;
 }
